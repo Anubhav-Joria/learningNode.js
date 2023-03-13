@@ -1,0 +1,46 @@
+
+body{
+    border:5px solid gray;
+    margin: 25px;
+    padding: 20px;
+    margin: 1in;
+   
+
+
+}
+
+    p{
+    color: ff1f1;
+    background-color:antiquewhite;
+    
+    
+}
+ol{
+    color: rgb(255, 142, 127);
+}
+h4{
+    color: darkorchid;
+}
+p{
+    /* margin-top: 53px;
+    margin-left: 1in;
+    margin-right: 01in;  */
+    padding: 1ch;
+    margin: 2ch;
+
+}
+h1{
+    margin-left:5in ;
+}
+h2{
+    margin-left: 1in;
+}
+body{
+    margin-left: 1in;
+    font-style:oblique;
+}
+
+
+span{
+    color: red;
+}

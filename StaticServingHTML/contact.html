@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+         .navigate {
+            color:white;
+            background-color: black;
+            border-radius: 400px;
+            
+            
+            
+        }
+        .navigate ul{
+            overflow: auto;
+        }
+
+        .navigate li{
+            list-style-type: none;
+            float: left;
+            margin: 8px 16px;
+            padding: 7px 8px;
+            text-decoration: none;
+            text-size-adjust: 6px;
+        }
+        .navigate li a{
+            text-decoration: none;
+            padding: 3px;
+            color: white;
+
+            /* border: solid white 0.5px; */
+            border-radius: 6px;
+        }.navigate input{
+            border: 2px solid rgb(20, 68, 28);
+        }
+        .boxes{
+            background-color: rgb(184, 8, 8);
+            color: aquamarine;
+            font-size: 80px;
+            text-align: center;
+            display: none;
+        }
+        
+        @media (max-width:300px)
+        {
+            #box-1{
+                display: block;
+                background-color: rgb(138, 32, 73);
+            }
+        }
+        @media (max-width:600px) and (min-width:301px)
+        {
+            #box-2{
+                display: block;
+                background-color: rgb(49, 16, 83);
+
+            }
+        }
+        @media (max-width:1000px) and (min-width:601px)
+        {
+            #box-3{
+                display: block;
+                background-color: rgb(15, 146, 118);
+
+            }
+        }
+        @media (min-width:1001px)
+        {
+            #box-4{
+                display: block;
+                background-color: rgb(130, 163, 23);
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navigate">
+        <ul>
+            <li><a href="/"> HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/service">SERVICE</li>
+            <li><a href="/contact">CONTACT</a> </li>
+        </ul>
+
+
+    </nav>
+
+    <h1>Contact Page</h1>
+    <body>
+        <div class="boxes" id="box-1">i am iphone</div>
+        <div class="boxes" id="box-2">i am tablet</div>
+        <div class="boxes" id="box-3">i am lappy</div>
+        <div class="boxes" id="box-4">i am computer</div>
+    
+    
+        
+    </body>
+    
+</body>
+</html>
